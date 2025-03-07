@@ -1,0 +1,105 @@
+.main-profile {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-profile-light {
+  height: 100vh;
+  width: 100vw;
+}
+
+.background-profile-dark {
+  height: 100vh;
+  width: 100vw;
+}
+
+.background-profile {
+  position: relative;
+}
+
+.box-container-profile {
+  background-color: white;
+  border-radius: 10%;
+  position: absolute;
+}
+
+.title-profile {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.text-profile {
+  display: flex;
+  text-align: center;
+  margin: 5% 20%;
+}
+.email-profile {
+  margin-left: 20%;
+  margin-top: 8%;
+}
+.firstname-profile {
+  margin-left: 20%;
+  margin-top: 4%;
+}
+.name-profile {
+  margin-left: 20%;
+  margin-top: 4%;
+}
+.age-profile {
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+.ending-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.light.box-container-profile {
+  background-color: white;
+  color: black;
+}
+
+.dark.box-container-profile {
+  background-color: var(--primary-dark-color);
+  color: white;
+}
+
+.button-profile {
+  background-image: linear-gradient(
+    to right,
+    #e60012 0%,
+    #e35d5b 51%,
+    #e60012 100%
+  );
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 20px;
+  display: block;
+  border: none;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.button-profile:hover {
+  background-position: right center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dark.button-profile {
+  background-image: linear-gradient(
+    to right,
+    #85010c 0%,
+    #882f2d 48%,
+    #85010c 100%
+  );
+}

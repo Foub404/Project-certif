@@ -1,0 +1,253 @@
+* {
+  font-family: Josefin Sans, sans-serif;
+}
+
+.body-restau {
+  padding: 10%;
+}
+
+.header-restau-details {
+  width: 100%;
+}
+
+.text-accro-restau {
+  margin: 3% 20% 5% 20%;
+  font-size: 1.5rem;
+}
+.title-restau {
+  font-size: 4rem;
+  margin-bottom: 3%;
+  margin-top: -5%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.subtitle-restau {
+  font-size: 3rem;
+  margin-bottom: 8%;
+}
+
+.img-restau-details {
+  position: relative;
+  display: inline-block;
+  border-radius: 15%;
+  width: 50%;
+}
+
+.img-container-restau {
+  justify-content: center;
+  display: flex;
+}
+.img-restau-details:hover {
+  filter: brightness(80%);
+}
+
+.card-restau {
+  background-color: #e60012;
+  width: 25%;
+  height: 480px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card-restau h1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  font-size: 2rem;
+  color: white;
+}
+
+.card-container-restau {
+  display: flex;
+  justify-content: center;
+}
+
+.font-restau {
+  color: white;
+  margin: 7%;
+  font-size: 1.3rem;
+}
+
+.price-container-restau {
+  background-color: white;
+  margin: 1%;
+  margin-top: 20%;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-evenly;
+}
+.price-box-restau {
+  margin-top: -5%;
+}
+
+.price-restau {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.pricetwo-restau {
+  font-size: 1rem;
+}
+
+.white-box-restau {
+  background-color: white;
+  width: 80%;
+  margin: 10% auto;
+  height: 40%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-restau {
+  margin-top: -2%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-reservation-restau {
+  background-image: linear-gradient(
+    to right,
+    #e60012 0%,
+    #e35d5b 51%,
+    #e60012 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
+  border: none;
+}
+
+.button-reservation-restau:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.light.body-restau,
+.light.footer-restaurant {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+.dark.body-restau,
+.dark.footer-restaurant {
+  background-color: var(--primary-dark-color);
+  color: white;
+}
+
+.light.card-restau {
+  background-color: var(--secondary-color);
+}
+
+.dark.card-restau {
+  background-color: var(--secondary-dark-color);
+}
+
+.light.white-box-restau,
+.light.price-container-restau {
+  background-color: white;
+  color: black;
+}
+
+.dark.white-box-restau,
+.dark.price-container-restau {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+.light.button-reservation-restau {
+  background-image: linear-gradient(
+    to right,
+    #e60012 0%,
+    #e35d5b 51%,
+    #e60012 100%
+  );
+}
+
+.dark.button-reservation-restau {
+  background-image: linear-gradient(
+    to right,
+    #f04755 0%,
+    #c84745 48%,
+    #85010c 100%
+  );
+}
+@media screen and (max-width: 464px) {
+  .title-restau {
+    font-size: 1.5rem;
+  }
+  .text-accro-restau {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .card-restau {
+    width: 80%;
+  }
+  .footer-restaurant {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1024px) {
+  .title-restau {
+    font-size: 3rem;
+  }
+  .card-restau {
+    width: 45%;
+  }
+  .text-accro-restau {
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+@media (min-width: 680px) and (max-width: 840px) {
+  .title-restau {
+    font-size: 2.5rem;
+  }
+  .card-restau {
+    width: 60%;
+  }
+  .text-accro-restau {
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+@media (min-width: 464px) and (max-width: 680px) {
+  .title-restau {
+    font-size: 2.5rem;
+  }
+  .card-restau {
+    width: 60%;
+  }
+  .text-accro-restau {
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}

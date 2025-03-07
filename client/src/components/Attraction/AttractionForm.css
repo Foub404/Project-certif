@@ -1,0 +1,63 @@
+.form-attraction-main-container {
+  min-height: 160vh;
+}
+
+.form-attraction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  width: 40%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.form-attraction-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-admin-attraction {
+  width: 350px;
+  height: 75px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.admin-form-button:hover {
+  cursor: pointer;
+}
+
+.light.form-attraction-main-container {
+  background-color: var(--primary-color);
+}
+
+.dark.form-attraction-main-container {
+  background-color: var(--primary-dark-color);
+}
+
+.light.label-attractions-form,
+.light.delete-title-form {
+  color: black;
+}
+
+.dark.label-attractions-form,
+.dark.delete-title-form {
+  color: white;
+}
+
+.light.form-admin-attraction {
+  background-color: white;
+  color: black;
+  border-color: var(--secondary-color);
+}
+
+.dark.form-admin-attraction {
+  background-color: var(--primary-color);
+  color: black;
+  border-color: var(--secondary-dark-color);
+}
